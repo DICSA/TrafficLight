@@ -30,24 +30,23 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="637-PF-mMf">
-                                <rect key="frame" x="111" y="105" width="153" height="479"/>
+                                <rect key="frame" x="116.33333333333333" y="105" width="142.33333333333337" height="447"/>
                                 <subviews>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LUZ-Qg-Upw">
-                                        <rect key="frame" x="0.0" y="0.0" width="153" height="157.33333333333334"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="142.33333333333334" height="146.33333333333334"/>
                                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                                     </view>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="djj-hi-j9R">
-                                        <rect key="frame" x="0.0" y="165.33333333333331" width="153" height="151.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="154.33333333333331" width="142.33333333333334" height="141.33333333333331"/>
                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                     </view>
                                     <view multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEU-71-5jO">
-                                        <rect key="frame" x="0.0" y="325" width="153" height="154"/>
+                                        <rect key="frame" x="0.0" y="303.66666666666669" width="142.33333333333334" height="143.33333333333331"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="djj-hi-j9R" firstAttribute="top" secondItem="LUZ-Qg-Upw" secondAttribute="bottom" constant="8.0000000000000284" id="8dB-Yh-DS2"/>
-                                    <constraint firstItem="djj-hi-j9R" firstAttribute="top" secondItem="637-PF-mMf" secondAttribute="top" constant="165.33333333333337" id="8f1-XO-g94"/>
                                     <constraint firstItem="djj-hi-j9R" firstAttribute="centerX" secondItem="hEU-71-5jO" secondAttribute="centerX" id="B3t-Lq-aqW"/>
                                     <constraint firstItem="hEU-71-5jO" firstAttribute="height" secondItem="djj-hi-j9R" secondAttribute="height" multiplier="1.01397" id="Xrr-Hx-enM"/>
                                     <constraint firstItem="hEU-71-5jO" firstAttribute="top" secondItem="djj-hi-j9R" secondAttribute="bottom" constant="7.9999999999999432" id="Zul-SC-d82"/>
@@ -63,6 +62,7 @@
                         <constraints>
                             <constraint firstItem="637-PF-mMf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="61" id="FPR-Qq-x39"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Fhc-lz-qmx" secondAttribute="bottom" constant="70" id="NXG-IM-oR1"/>
+                            <constraint firstItem="Fhc-lz-qmx" firstAttribute="top" secondItem="hEU-71-5jO" secondAttribute="bottom" constant="112.33333333333337" id="XuX-IW-IvQ"/>
                             <constraint firstItem="637-PF-mMf" firstAttribute="centerX" secondItem="Fhc-lz-qmx" secondAttribute="centerX" id="ftU-Ia-ry3"/>
                             <constraint firstItem="Fhc-lz-qmx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pK1-cf-muI"/>
                         </constraints>
