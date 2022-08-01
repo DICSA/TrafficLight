@@ -49,16 +49,20 @@ class ViewController: UIViewController {
     
     
     @IBAction func changingСolor(_ sender: Any) {
-        //if else, можешь через switch, если будешь через свич, то придется делать enum)
-        //можно через if elsе наверное типо если там альфв 1 переходи к другому уже
-        //на уроке разбирали - надо через конфигуратор делать и применять настройки каждый раз по клику вместе с изменением тайтла
-//        .toggle()
-        redView.alpha = 1
-        yellowView.alpha = 1
-        greenView.alpha = 1
-        changingColorButtom.setTitle("NEXT", for: .normal)
         
+        if redView.alpha != 1 {
+            redView.alpha = 1
+            changingColorButtom.setTitle("NEXT", for: .normal)
+        } else if yellowView.alpha != 1 {
+            yellowView.alpha = 1
+        } else if greenView.alpha != 1 {
+            greenView.alpha = 1
+        } else {
+            redView.alpha = 0.3
+            yellowView.alpha = 0.3
+            greenView.alpha = 0.3
+            changingColorButtom.setTitle("START", for: .normal)
+        }
     }
-
 }
 
